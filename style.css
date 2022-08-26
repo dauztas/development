@@ -216,3 +216,131 @@ tr {
   gap: 28px;
   margin-bottom: 0.5rem;
 }
+
+.section6 {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-bottom: 6rem;
+  border-bottom: 2px solid #eeeeee;
+}
+
+.section6 .block-left {
+  display: grid;
+  grid-column: span 2;
+}
+
+.section6 h4 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #ff3998;
+}
+
+.section6 h1 {
+  font-weight: 900;
+  font-size: 56px;
+  line-height: 68px;
+  color: #111111;
+}
+
+.section6 p {
+  font-size: 20px;
+  line-height: 150%;
+  color: #555555;
+}
+
+.section6 img {
+  position: absolute;
+  bottom: 0;
+}
+
+.section6 .btn {
+  margin-bottom: 6rem;
+  margin-top: 2rem;
+}
+
+.section7 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.section7 .block-left p {
+  font-size: 20px;
+  margin-bottom: 30px;
+  color: #555555;
+  margin-top: 0;
+}
+
+.section7 .text-block img {
+  margin-bottom: 30px;
+}
+
+.section7 .icons-block {
+  display: flex;
+  align-items: center;
+}
+
+.section7 .icons-block a {
+  margin-right: 10px;
+}
+
+.section7 .icons-block a:nth-child(2) {
+  scale: 1.2;
+}
+
+.section7 .icons-block a:last-child {
+  scale: 0.9;
+}
+
+.section7 .block-right {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 60px;
+  line-height: 2rem;
+  padding-right: 3rem;
+}
+
+.section7 .about {
+  display: flex;
+  flex-direction: column;
+}
+
+.section7 .nft {
+  display: flex;
+  flex-direction: column;
+}
+
+.section7 .contact {
+  display: flex;
+  flex-direction: column;
+}
+
+.section7 .social {
+  display: flex;
+  flex-direction: column;
+}
+
+.section7 .block-right h4 {
+  font-weight: 900;
+  font-size: 16px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #555555;
+  margin-top: 0;
+}
+
+.section7 .block-right a {
+  font-size: 20px;
+  line-height: 2rem;
+  color: #555555;
+  text-decoration: none;
+}
+
+.section7 .block-right a:hover {
+  scale: 1.1;
+}
