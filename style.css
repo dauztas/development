@@ -1,0 +1,54 @@
+body {
+  font-family: "Inter", sans-serif;
+  background: #ffffff;
+  border-radius: 15px;
+}
+
+header,
+.section1,
+.section2,
+.section3,
+.section4,
+.section5,
+.section6,
+.section7 {
+  margin: 0 50px;
+  margin-bottom: 4rem;
+}
+
+header {
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .mobile-nav {
+  display: none;
+}
+
+header nav a {
+  text-decoration: none;
+  color: #555555;
+  font-size: 20px;
+}
+
+header nav a:not(:first-child) {
+  margin-left: 10px;
+}
+
+header nav a:last-child {
+  color: #ff3998;
+}
+
+header nav a:last-child:hover {
+  border: 4px dotted pink;
+  text-decoration: none;
+  border-radius: 15px;
+  padding: 5px;
+  margin-left: 0px;
+}
+
+header nav a:hover {
+  text-decoration: underline;
+}
