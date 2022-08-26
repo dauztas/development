@@ -97,3 +97,122 @@ header nav a:hover {
 .section1 .btn {
   margin-top: 4rem;
 }
+
+.section2 {
+  background-image: url("assets/background.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 6rem 2rem 2rem 2rem;
+  border-radius: 15px;
+}
+
+.section2 h2 {
+  font-weight: 500;
+  font-size: 40px;
+}
+
+.section2 p {
+  font-size: 20px;
+}
+
+.section3 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.section4 h2 {
+  font-weight: 500;
+  font-size: 40px;
+  color: #111111;
+}
+
+.section4 p,
+a {
+  font-size: 20px;
+  color: #555555;
+}
+
+.section5 {
+  overflow-x: scroll;
+  border-bottom: 2px solid #eeeeee;
+}
+
+.nft-cards {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 4rem;
+}
+
+.card1,
+.card2,
+.card3,
+.card4 {
+  display: flex;
+  flex-direction: column;
+}
+
+table {
+  border-collapse: separate;
+  border-spacing: 20px 10px;
+}
+
+.table-container {
+  background: #eeeeee;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.table-top-row1 {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 100%;
+  color: orange;
+  text-transform: uppercase;
+}
+
+.table-top-row2 {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 100%;
+  text-align: right;
+  text-transform: uppercase;
+  color: #777777;
+}
+
+.table-middle-row1 {
+  font-weight: 500;
+  font-size: 20px;
+  color: #111111;
+}
+
+.table-middle-row2 {
+  font-weight: 500;
+  font-size: 20px;
+  color: #111111;
+  text-align: right;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+.table-middle-row2 img {
+  margin-right: 0.5rem;
+}
+
+.table-bottom-row1 {
+  font-size: 18px;
+  color: #777777;
+}
+
+.table-bottom-row2 {
+  font-size: 18px;
+  color: #777777;
+  text-align: right;
+}
+
+tr {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 28px;
+  margin-bottom: 0.5rem;
+}
